@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Astral Adventurers Guide</name>
+		<update version="0.0.1">
+			<file name="astral-adventurers-guide.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="race-plasmoid.txt" url="" />		
+	</files>
+</index>
