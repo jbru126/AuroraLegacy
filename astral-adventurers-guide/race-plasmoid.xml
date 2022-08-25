@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Plasmoid from Astral Adventurers Guide</name>
+		<update version="0.0.1">
+			<file name="race-Plasmoid.xml"/>
+		</update>
+	</info>
+
+	<element name="Plasmoid" type="Race" source="Astral Adventurers Guide" id="ID_WOTC_AAG_RACE_PLASMOID">
+		<description>
+			<p>Plasmoids are amorphous beings with no typical shape. In the presence of other folk, they often adopt a similar shape, but there's little chance of mistaking a plasmoid for anything else. They consume food by osmosis, the way an amoeba does, and excrete waste through tiny pores. They breathe by absorbing oxygen through another set of pores, and their limbs are strong and flexible enough to grasp and manipulate weapons and tools. Although most plasmoids are translucent gray, they can alter their color and translucence by absorbing dyes through their pores. </p>
+			<p class="indent">Plasmoids don’t have internal organs of the usual sort. Their bodies are composed of cells, fibers, plasma-like ooze, and clusters of nerves. These nerves enable a plasmoid to detect light, heat, textures, sound, pain, and vibrations. Plasmoids can stiffen the outer layers of their bodies to maintain a humanlike shape, so they can wear clothing and accessories. They speak by forcing air out of tubular cavities that constrict to produce sound.</p>
+			<p class="indent">When plasmoids sleep, they lose their rigidity and spread out and are thus sometimes mistaken for a rock or some other feature of the environment.</p>
+			<h4>PLASMOID TRAITS</h4>
+			<p>As a plasmoid, you have the following racial traits.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> You are an Ooze.</p>
+			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent"><strong><em>Hold Breath.</em></strong> You can hold your breath for 1 hour.</p>
+			<p class="indent"><strong><em>Natural Resilience.</em></strong> You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned. </p>
+			<p class="indent"><strong><em>Shape Self.</em></strong> As an action, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob. While you have a humanoid shape, you can wear clothing and armor made for a Humanoid of your size.</p>
+			<p class="indent">As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long ore reabsorb it into your body. As part of the same bonus action, you can use this pseudopod to manipulate an object, open or close a door or container, or pick up or set down a Tiny object. The pseudopod contains no sensory organs and can’t attack, activate magic items, or lift more than 10 pounds.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Plasmoid)" supports="Custom Ability Score Improvement Option" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
+	</element>
+</elements>

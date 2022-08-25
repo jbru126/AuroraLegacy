@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Astral Adventurers Guide</name>
+		<update version="0.0.1">
+			<file name="astral-adventurers-guide.index" url="https://github.com/jbru126/AuroraLegacy/blob/main/astral-adventurers-guide.index" />
+		</update>
+	</info>
+	<files>
+		<file name="race-plasmoid.xml" url="https://github.com/jbru126/AuroraLegacy/blob/main/astral-adventurers-guide/race-plasmoid.xml" />		
+	</files>
+</index>
