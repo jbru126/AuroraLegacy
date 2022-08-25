@@ -3,7 +3,7 @@
 	<info>
 		<name>Plasmoid from Astral Adventurers Guide</name>
 		<update version="0.0.1">
-			<file name="race-Plasmoid.xml"/>
+			<file name="race-Plasmoid.xml" url="https://github.com/jbru126/AuroraLegacy/blob/main/astral-adventurers-guide/race-plasmoid.xml"/>
 		</update>
 	</info>
 
