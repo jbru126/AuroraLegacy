@@ -3,10 +3,10 @@
 	<info>
 		<name>Astral Adventurers Guide</name>
 		<update version="0.0.1">
-			<file name="astral-adventurers-guide.index" url="" />
+			<file name="astral-adventurers-guide.index" url="https://github.com/jbru126/AuroraLegacy/blob/main/astral-adventurers-guide.index" />
 		</update>
 	</info>
 	<files>
-		<file name="race-plasmoid.txt" url="" />		
+		<file name="race-plasmoid.txt" url="https://github.com/jbru126/AuroraLegacy/blob/main/astral-adventurers-guide/race-plasmoid.txt" />		
 	</files>
 </index>
