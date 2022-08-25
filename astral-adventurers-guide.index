@@ -7,6 +7,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="race-plasmoid.txt" url="https://github.com/jbru126/AuroraLegacy/blob/main/astral-adventurers-guide/race-plasmoid.txt" />		
+		<file name="race-plasmoid.xml" url="https://github.com/jbru126/AuroraLegacy/blob/main/astral-adventurers-guide/race-plasmoid.xml" />		
 	</files>
 </index>
