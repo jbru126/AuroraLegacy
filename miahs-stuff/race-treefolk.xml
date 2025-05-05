@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<xml version="1.0" encoding="utf-8" />
 <elements>
 	<info>
 		<name>Treefolk</name>
-		<update version="0.2.3">
-			<file name="race-treefolk.xml" url="https://github.com/jbru126/AuroraLegacy/blob/main/miahs-stuff/race-treefolk.xml" />
+		<update version="0.0.1">
+			<file name="race-treefolk.xml" url="https://raw.github.com/jbru126/AuroraLegacy/blob/main/miahs-stuff/race-treefolk.xml" />
 		</update>
 	</info>
-
 	<element name="Treefolk" type="Race" source="Miah's Stuff" id="ID_RACE_TREEFOLK">
 		<description>
 			<p class="flavor">The treefolk are the oldest beings native to Lorwyn, having existed long before the first elves, kithkin, or giants, as well as the longest-lived. Treefolk are born from seeds and grow into mundane trees, but through a process known as The Rising some of these trees awaken into sentient, mobile treefolk. In their youth, treefolk stay in their birth groves, absorbing the wisdom and oral history of their elders. When they mature, they wander the world alone, seeking those worthy of their knowledge or shelter.
@@ -48,23 +47,24 @@
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Language" id="ID_LANGUAGE_SYLVAN" />
 		</rules>
-		<element name="Plant Traits" type="Racial Trait" source="Miah's Stuff" id="ID_RACIAL_TRAIT_TREEFOLK_PLANT_TRAITS">
+	</element>
+	<element name="Plant Traits" type="Racial Trait" source="Miah's Stuff" id="ID_RACIAL_TRAIT_TREEFOLK_PLANT_TRAITS">
+		<description>
+			<p>You have resistance to poison and piercing damage, as well as advantage on saving throws against sleep and charm effects.</p>
+			<p class="indent">In addition, you have disadvantage on saving throws to resist damage from magical fire, and you count as a plant creature for <em>blight</em> spells and similar effects.</p>
+		</description>
+		<sheet>
 			<description>
-				<p>You have resistance to poison and piercing damage, as well as advantage on saving throws against sleep and charm effects.</p>
-				<p class="indent">In addition, you have disadvantage on saving throws to resist damage from magical fire, and you count as a plant creature for <em>blight</em> spells and similar effects.</p>
-			</description>
-			<sheet>
-				<description>
 				<p>You have advantage on saving throws against sleep and charm effects.</p>
 				<p class="indent">You have disadvantage on saving throws to resist damage from magical fire, and you count as a plant creature for blight spells and similar effects.</p>
-				</description>
-			</sheet>
-			<rules>
-				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
-				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING" />
-			</rules>
-		</element>		
-		<element name="Treefolk Magic" type="Racial Trait" source="Miah's Stuff" id="ID_RACIAL_TRAIT_TREEFOLK_MAGIC">
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING" />
+		</rules>
+	</element>		
+	<element name="Treefolk Magic" type="Racial Trait" source="Miah's Stuff" id="ID_RACIAL_TRAIT_TREEFOLK_MAGIC">
 		<description>
 			<p>You know the <em>druidcraft</em> cantrip. When you reach 3rd level, you can cast the <em>detect poison and disease</em> spell once with this trait without requiring a material component, and regain the ability to do so when you finish a long rest. Starting at 5th level, you can cast the <em>speak with plants</em> spell once with this trait and regain the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 			<p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
