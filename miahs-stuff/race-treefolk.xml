@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Treefolk</name>
+		<update version="0.2.3">
+			<file name="race-treefolk.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Treefolk" type="Race" source="Miah's Stuff" id="ID_RACE_TREEFOLK">
+		<description>
+			<p class="flavor">The treefolk are the oldest beings native to Lorwyn, having existed long before the first elves, kithkin, or giants, as well as the longest-lived. Treefolk are born from seeds and grow into mundane trees, but through a process known as The Rising some of these trees awaken into sentient, mobile treefolk. In their youth, treefolk stay in their birth groves, absorbing the wisdom and oral history of their elders. When they mature, they wander the world alone, seeking those worthy of their knowledge or shelter.
+			<p>Since they can give birth to thousands of seedlings, sentient and mundane, over their lifetimes, treefolk do not have the same concept of immediate family as humanoid races; instead, their nurturing instinct is directed over entire groves. This instinct sometimes leads treefolk to adopt communities of kithkin in much the same way, acting as guardians. The kithkin clachan of Cloverdell has at least one such protector.(</p>)
+			<p>Treefolk come in a variety of species. Ash treefolk are steadfast warriors and protectors of treefolk groves. Black poplars are the healers of treefolk kind, using shamanic magic to absorb the pain of other treefolk. They are often considered evil, and have been hunted nearly to extinction. Treefolk born from elder trees are among the longest-lived of their kind, and the oldest are the greatest leaders of all treefolk kind. Elders sometimes grant their flowers to kithkin for use in healing herbal teas. The oaks are the largest and strongest of all treefolk and are the greatest warriors of their kind. The tallest oak treefolk are called cloudcrowns, and kithkin prefer to build their homes near their domiciles. Treefolk born from rowans are among the most likely to study magic, including curses and hexes. An organization of mostly rowan treefolk known as the Sunrise Brake is devoted sniffing out and destroying the unnatural or artificial. They are nearly fanatics in their opposition to metal, and their larger goal is discovering the location of the Faerie Queen, Oona.</p>
+			<h4>TREEFOLK NAMES</h4>
+			<p>Tree names tend to sound large and can be quite melodic. They tend to vary a lot in length as well though, much like the treefolk themselves. So some names may be short and rough sounding while others are longer and more melodic, but most names share the same tones overall.
+			<span class="feature">Names:</span>Colfenor, Doran, Fangorn, Kurbis, Nemata, Quickbeam, Treebeard, Verdeloth, Yedora<br />
+            </p>
+			<h4>TREEFOLK TRAITS</h4>
+			<p>You have the following racial traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2 and your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Creature Type</em></strong> You are a Plant. You have resistance to poison and piercing damage, as well as advantage on saving throws against sleep and charm effects.</p>
+			<p class="indent">In addition, you have disadvantage on saving throws to resist damage from magical fire, and you count as a plant creature for <em>blight</em> spells and similar effects.</p>
+			<p class="indent"><strong><em>Size</em></strong> You are Medium.</p>
+			<p class="indent"><strong><em>Speed</em></strong> Your walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Life Span</em></strong> Over 1,000 years on average.</p>
+			<p class="indent"><strong><em>Natural Armor</em></strong> Your bark-like skin provides you a base AC of 17 (your Dexterity modifier doesn't affect this number). You can't wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>
+			<p class="indent"><strong><em>Plant Camouflage</em></strong> You have advantage on Dexterity (Stealth) checks you make to hide in forest terrain.</p>
+			<p class="indent"><strong><em>Speech of Leaf</em></strong> You can communicate in a limited manner with trees. They can understand the meaning of your words, and you can empathically understand their emotions.</p>
+			<p class="indent"><strong><em>Tree Stride</em></strong> As an action, you can use 10 feet of movement to magically step into a tree within 5 feet of you and emerge from a second tree you can see within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be at least the same size as you.</p>
+			<p>You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>			
+			<p class="indent"><strong><em>Treefolk Magic</em></strong> You know the <em>druidcraft</em> cantrip. When you reach 3rd level, you can cast the <em>detect poison and disease</em> spell once with this trait without requiring a material component, and regain the ability to do so when you finish a long rest. Starting at 5th level, you can cast the <em>speak with plants</em> spell once with this trait and regain the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
+		</description>
+		<setters>
+			<set name="names" type="male">Colfenor, Doran, Fangorn, Kurbis, Nemata, Quickbeam, Treebeard, Verdeloth, Yedora</set>
+			<set name="names" type="female">Colfenor, Doran, Fangorn, Kurbis, Nemata, Quickbeam, Treebeard, Verdeloth, Yedora</set>
+			<set name="names" type="neutral">Colfenor, Doran, Fangorn, Kurbis, Nemata, Quickbeam, Treebeard, Verdeloth, Yedora</set>			
+			<set name="names-format">{{name}}</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" />
+			<stat name="constitution" value="2" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TREEFOLK_MAGIC" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+		</rules>
+		<element name="Plant Traits" type="Racial Trait" source="Miah's Stuff" id="ID_RACIAL_TRAIT_TREEFOLK_PLANT_TRAITS">
+			<description>
+				<p>You have resistance to poison and piercing damage, as well as advantage on saving throws against sleep and charm effects.</p>
+				<p class="indent">In addition, you have disadvantage on saving throws to resist damage from magical fire, and you count as a plant creature for <em>blight</em> spells and similar effects.</p>
+			</description>
+			<sheet>
+				<description>
+				<p>You have advantage on saving throws against sleep and charm effects.</p>
+				<p class="indent">You have disadvantage on saving throws to resist damage from magical fire, and you count as a plant creature for blight spells and similar effects.</p>
+				</description>
+			</sheet>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING" />
+			</rules>
+		</element>		
+		<element name="Treefolk Magic" type="Racial Trait" source="Miah's Stuff" id="ID_RACIAL_TRAIT_TREEFOLK_MAGIC">
+		<description>
+			<p>You know the <em>druidcraft</em> cantrip. When you reach 3rd level, you can cast the <em>detect poison and disease</em> spell once with this trait without requiring a material component, and regain the ability to do so when you finish a long rest. Starting at 5th level, you can cast the <em>speak with plants</em> spell once with this trait and regain the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
+		</description>
+		<sheet>
+			<description>You know the druidcraft cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</description>
+			<description level="3">You know the druidcraft cantrip. You can cast the detect poison and disease spell once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</description>
+			<description level="5">You know the druidcraft cantrip. You can cast the detect poison and disease spell and speak with plants spell once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DRUIDCRAFT" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_SPEAK_WITH_PLANTS" level="5" />
+		</rules>
+	</element>
+</elements>
