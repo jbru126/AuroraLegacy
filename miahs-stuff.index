@@ -3,10 +3,10 @@
 	<info>
 		<name>Miah's Stuff</name>
 		<update version="0.0.1">
-			<file name="Miahs-stuff.index"/>
+			<file name="miahs-stuff.index" url="https://github.com/jbru126/AuroraLegacy/blob/main/miahs-stuff.index" />
 		</update>
 	</info>
 	<files>
-		<file name="race-treefolk.xml"/>
+		<file name="race-treefolk.xml" url="https://github.com/jbru126/AuroraLegacy/blob/main/miahs-stuff/race-treefolk.xml" />
 	</files>
 </index>
