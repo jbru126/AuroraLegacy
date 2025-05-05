@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<xml version="1.0" encoding="utf-8" />
 <index>
 	<info>
-		<name>Astral Adventurers Guide</name>
+		<name>Miah's Stuff</name>
 		<update version="0.0.1">
-			<file name="astral-adventurers-guide.index" url="https://github.com/jbru126/AuroraLegacy/blob/main/astral-adventurers-guide.index" />
+			<file name="miahs-stuff.index" url="https://raw.github.com/jbru126/AuroraLegacy/blob/main/miahs-stuff.index" />
 		</update>
 	</info>
 	<files>
-		<file name="race-plasmoid.xml" url="https://github.com/jbru126/AuroraLegacy/blob/main/astral-adventurers-guide/race-plasmoid.xml"" />		
+		<file name="race-treefolk.xml" url="https://raw.github.com/jbru126/AuroraLegacy/blob/main/miahs-stuff/race-treefolk.xml" />
 	</files>
 </index>
