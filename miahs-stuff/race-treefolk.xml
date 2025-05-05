@@ -3,7 +3,7 @@
 	<info>
 		<name>Treefolk</name>
 		<update version="0.0.1">
-			<file name="race-treefolk.xml" url="https://raw.github.com/jbru126/AuroraLegacy/blob/main/miahs-stuff/race-treefolk.xml" />
+			<file name="race-treefolk.xml" url="https://raw.githubusercontent.com/jbru126/AuroraLegacy/refs/heads/main/miahs-stuff/race-treefolk.xml" />
 		</update>
 	</info>
 	<element name="Treefolk" type="Race" source="Miah's Stuff" id="ID_RACE_TREEFOLK">
