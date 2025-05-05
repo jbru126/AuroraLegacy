@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Miah's Stuff</name>
+		<update version="0.0.1">
+			<file name="Miahs-stuff.index"/>
+		</update>
+	</info>
+	<files>
+		<file name="race-treefolk.xml"/>
+	</files>
+</index>
